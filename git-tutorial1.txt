@@ -1,0 +1,15 @@
+MUMBAI LINUX MACHINE
+Following step must to follow to setup machine:-
+
+1)sudo su
+2)yum update -y
+   >This is used to update linux machine
+3)yum install git -y
+   >This is used to install git repository
+4)which git
+   >To check running software
+5)git --version
+   >This is used to know the version of git
+6)git config --global user.name"snehil"
+7)git config --global user.email"shukla8snehil@gmail.com"
+8)git config --list 

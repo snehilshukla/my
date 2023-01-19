@@ -1,0 +1,44 @@
+MUMBAI LINUX MACHINE
+1)Create a directory
+   mkdir dir1
+2)Initilised Git
+   git init
+ >Convert dir1 into git repository
+ >Now WD,SA & LR of mumbai linux machine are ready
+3)Work On WD
+>Create a file in which you write your code
+          cat > file1
+      TEXT> I am Best....
+>Check status of git
+         git status
+      o/p> UNtracked file file1
+4)Add To SA
+>After creating file1 in WD, add to SA
+       git add file1
+       git status
+       o/p > changed to be commited
+5)Commit to LR
+>Now,commit file1 to LR
+    git commit -m "Second Git Tutorial"
+    git status
+>Want to know,who is commited this file1?
+     git log
+  o/p> <commit-id>
+author's name
+author's email
+>Want to know ,what is commited in this file1?
+     git show <commit-id>
+6)Add CR to LR
+>Connect github to git
+  git remote add origin <CR.url>
+> This is done only for first time
+7)Push to CR
+  git push origin master
+>> send file1 to github
+8)If you want to make any change in the content of file1 again then:-
+       nano file1
+       git add  file1
+       git commit -m "first commit"
+       git push origin master
+
+ 

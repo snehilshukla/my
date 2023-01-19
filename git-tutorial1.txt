@@ -12,4 +12,25 @@ Following step must to follow to setup machine:-
    >This is used to know the version of git
 6)git config --global user.name"snehil"
 7)git config --global user.email"shukla8snehil@gmail.com"
-8)git config --list 
+8)git config --list
+ 
+HOW TO COMMIT PUSH & PULL FROM GITHUB
+
+MUMBAI LINUX MACHINE
+ Following step must be follow:-
+1)Work on WD
+2)Add to SA
+3)Commit to LR
+4)Add CR to LR
+    >This is done only for first time
+5)Push to CR 
+
+SINGAPORE LINUX MACHINE
+ Following step must be follow:-
+1)Add CR to LR
+2)Pull from CR
+   >All code present in CR is copying to Singapore WD
+3)Work on WD
+4)Add to SA
+5)Commit to LR
+6)PUSH to CR

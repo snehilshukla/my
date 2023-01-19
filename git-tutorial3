@@ -1,0 +1,26 @@
+SINGAPORE LINUX MACHINE
+ 
+1)Create directory
+    mkdir dir1
+2)Initilised Git
+    git init
+3)Add CR to LR
+    git remote add origin <CR.url>
+4)Pull from CR
+    git pull origin master
+Want to know,who is commited this file?
+    git log
+  O/P=> <commit-id>
+  other person's name
+  other person's email
+Want to know, what is commited in this file?
+    git show <commit-id>
+
+5)Work on WD
+     nano file1
+6)Add to SA
+    git add file1
+7)Commit to LR
+    git commit -m "first commit"
+8)Push to CR
+    git push origin master

@@ -1,0 +1,37 @@
+python:-
+
+Introduction=>
+1)High level general purpose langaguge
+2)compiled language
+3)developed by Guido Van Rassum in 1991
+
+Print Function=>
+1)Function is used to print any msg/value.
+2)Printed the value stored in variable or directly printed to msg.
+syntax:-
+1) print("msg");
+2)print(VN);
+
+3)If you want to print any msg along with value then:-
+syntax:-
+print("msg",VN);
+
+Input Function=>
+1)use to take input from user.
+2)accept only string format.
+3)For mathematical calculation, we have to convert string format to integer format so for that we built in function int().
+suntax:-
+1)VN=input("msg");
+  msg>>
+  print(VN);
+2)VN=input("msg");
+  msg>>
+  print("msg",VN);
+3)VN=int(input("msg"));
+  msg>>
+  print("msg1",VN);
+
+Variable=>
+1)use to store value.
+2)No declration required , only initilisation.
+3)Variable created as soon as we assigned value to it. 
